@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Recipe App</title>
+    <link href="recipstyle.css" rel="stylesheet">
+    <link href="images/favicon.png" rel="icon">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+                <a href="./"><h1 class="header header__title">Add Recipe</h1></a>
+            <h2 class="header__subtitle">What recipe do you want to save today?</h2>
+        </div>
+    </div>
+    <div class="actions">
+        <div class="actions__container" id="search-bar-div">
+            <input type="text" class="input" id="search-bar" placeholder="Search">
+        </div>
+    </div>
+    <div class="container">
+        <div id="recipes-div">
+
+        </div>
+        <div>
+            <a  href="add-recipe.html" target="_blank"><button id="add-recipe" class="button">Add Recipe</button></a>
+        </div>
+    </div>
+    <script src="uuidv4.js"></script>
+    <script src="functions.js"></script>
+    <script src="recipe.js"></script>
+</body>
+
+</html>
